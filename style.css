@@ -1,0 +1,449 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.design{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color:rgb(0, 168, 0);
+font-size: 30px;
+}
+.logo{
+    color:blue
+}
+.login{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.second-navbar{
+    display: none;
+}
+hr{
+box-shadow:none;
+box-shadow: 1px 1px 4px ;
+box-shadow: color(srgb rgb(198, 181, 181) rgb(218, 223, 218) rgb(211, 211, 211));
+}
+.container{
+    Width:97%;
+    height:470px;
+    background-color: rgba(12, 12, 124, 0.916);
+    color:white;
+    margin:10px 10px 10px 10px;
+    text-align: center;
+    border-radius: 5px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h2{
+    padding-top:40px ;
+    font-size: 30px;
+}
+.count{
+    display: flex;
+    justify-content: center;
+    gap:30px;
+    color:rgb(224, 224, 224);
+    margin-top: -20px;
+    font-size: 15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.count1{
+    color:rgb(224, 224, 224);
+    margin-top: -4px;
+    font-size: 15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.customer-reviews{
+    color:rgb(255, 211, 129)
+}
+.search-bar{
+    width:80%;
+    height:50px;
+    margin-top: 15px;
+    padding-left: 50px;
+    border-radius: 5px;
+}
+.popular{
+    border:1px solid white;
+    height: 25px;
+    border-radius: 5px;
+    margin-left: 10px;
+    color:white;
+    background-color:transparent;
+}
+.customer-logos{
+    display: flex;
+    gap:13px;
+    margin: 30px 5px 30px 5px;
+    padding-bottom: 20px;
+}
+.customer-content{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    margin-top: 20px;
+}
+.customer-container{
+    background-color: rgba(246, 246, 246, 0.644);
+}
+.Categories-container{
+    padding-top: 30px;
+    text-align: center;
+}
+.Browse-Categories{
+    background-color: transparent;
+    border: 2px solid rgba(3, 181, 3, 0.714);
+    color:rgba(3, 181, 3, 0.714);
+    border-radius: 30px;
+    height: 50px;
+    font-size: 17px;
+    width:250px;
+}
+.customer-review{
+    margin-top: 30px;
+    text-align: center;
+}
+.Services{
+    margin-top: 100px;
+    text-align: center;
+}
+.image1{
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.img1{
+width: 10%;
+}
+.img2{
+    width: 13%;
+    height:2%
+    }
+    .img3{
+        width: 30%;
+        }   
+        .img4{
+            width: 8%;
+            }
+.Design-content{
+    margin-left: 50px;
+}
+.Design-content2{
+    margin-left: 20px;
+}
+.person1{
+    width:100%;
+    background-color: rgba(236, 234, 234, 0.862);
+    margin-bottom: 20px;
+
+    padding-bottom: 30px;
+}
+.person2 .person4 .person5{
+    width:100%;
+    background-color: rgba(236, 234, 234, 0.862);
+    margin-top: 40px;
+
+    padding-bottom: 30px;
+}
+.person3{
+    margin-top:40px;
+    padding-bottom: 40px;
+}
+.newFeatureImgCommon{
+    margin-left: 40px;
+    
+}
+.green-container{
+    margin-top: 30px;
+    color:white;
+    text-align: center;
+    padding:40px 10px 40px 10px ;
+    background-color:#82bc3b ;
+}
+.top-footer{
+    display: grid;
+    grid-template-columns: 300px ;
+    margin-top: 70px;
+    margin-left: 20px;
+}
+li{
+    text-decoration: none;
+    padding-top: 20px;
+    font-size: medium;
+    list-style: none;
+    margin-left: -30px;
+}
+.footer-names{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.hide-part{
+    display:none;
+}
+.hidden-logos{
+    display: none;
+}
+.read-more{
+    color: green;
+}
+.image2{
+    width:100%; 
+    height:30%;
+    padding: 10px;
+    border-radius: 20px;
+}
+.imag{
+    width: 100%;
+}
+.sub-section{
+    display: none;
+}
+@media screen and (min-width: 576px){
+    .search-bar{
+        width:450px;
+    }
+    .top-footer{
+        display: grid;
+        grid-template-columns: 300px 200px;
+        margin-top: 70px;
+        margin-left: 20px;
+    }
+}
+@media screen and (min-width: 767px){
+    .person1{
+        display: flex;
+    }
+    .hide-part{
+        display:block;
+    }
+    .read-more{
+        display: none;
+    }
+    .person1{
+        background-color: white;       
+        align-items: center;
+        margin-top: 80px;
+        border-radius: 20px;
+    }
+    .Design-content{
+        background-color:rgba(236, 234, 234, 0.862); 
+        margin-left:10px;
+        padding-bottom: 40px;
+        width:60%;
+      
+    }
+    .image1{
+        width:95%;
+        margin-right: -10px;
+    
+    }
+    .margin-change{
+        margin-left: 35px;
+    }
+    .person2{
+        display: grid;
+        grid-template-columns: auto auto;
+        align-items: center;
+        background-color: white;
+        margin-top: -50px;
+
+    }
+    .imag{
+        margin-left: -30px;
+        width: 200%;
+    }
+    .Design-content1{
+        grid-column-start: 1;
+        grid-row-start: 1;
+        background-color:rgba(236, 234, 234, 0.862); 
+        margin-right:-10px;
+        padding-bottom: 40px;
+        margin-top: 0px;
+       
+    }
+    .person4{
+        display: grid;
+        grid-template-columns: auto auto;
+        align-items: center;
+        background-color: white;
+        margin-top: 0px;
+    }
+    .person5{
+        display: grid;
+        grid-template-columns: auto auto;
+        align-items: center;
+        background-color: white;
+        margin-top: 0px;
+    }
+    .top-footer{
+        display: grid;
+        grid-template-columns: 200px 200px 200px;
+        margin-top: 70px;
+        justify-content: space-between;
+        padding-left: 0px;
+    }
+    .bottom-footer{
+        margin-left: 25%;
+    }
+}
+@media screen and (min-width: 767px){
+    .Design-content{
+        width: 50%;
+    }
+    .image-container{
+        width: 50%;
+    }
+    .Design-content1{
+        width:88%;
+        margin-left: 0px;
+    }
+    .image1{
+        padding-bottom: 30px;
+        margin-left: 25px;
+
+    }
+    .imag1{
+        width: 180%;
+        padding: 10px;
+        margin-left: 20px;
+
+    }
+    .Design-content5{
+        width: 99%;
+        margin-right: -200px;
+    }
+    .Design-content6{
+        width: 100%;
+
+        margin-right: -200px;
+    }
+    .Design-content7{
+        width: 100%;
+
+        margin-right: -180px;
+    }
+    .Design-content4{
+        width: 96%;
+    }
+    .Design-content8{
+        width: 85%;
+        margin-left: 15%;
+    }
+    .ima{
+        width: 90%;
+        margin-left: 10px;
+        padding: 10px;
+        margin-right: 10px;
+
+    }
+    .image5{
+        width: 85%;
+        padding: 20px;
+        margin-left: 20px;
+    }
+    .image7{
+        width: 90%;
+    }
+    .image9{
+        width: 100%;
+        margin-left: 10%;
+    }
+    .two-images{
+        display: flex;
+        width: 100%;
+        margin-top:50px;
+        margin-left: 10px;
+    }
+    .image2{
+        width: 48%;
+    }
+    .person9{
+        display: grid;
+        grid-template-columns: auto auto;
+        margin-top: 100px;
+    }
+    .chnaging{
+        grid-column-start: 1;
+        grid-row-start: 1;
+        background-color: white;
+        width:80%;
+        margin-left: 10%;
+    }
+    .image3{
+        width: 70%;
+    }
+    .second-navbar{
+        display: flex;
+    }
+    .top-footer{
+        display: grid;
+        grid-template-columns: 200px 200px 200px 200px ;
+        margin-top: 70px;
+        justify-content: space-between;
+        padding-left: 0px;
+    }
+    .bottom-footer{
+        margin-left: 35%;
+    }
+    .container{
+        margin-left: 2%;
+    }
+    .customer-logos{
+        justify-content: center;
+        
+    }
+    .logoes{
+        display: flex;
+        justify-content: center;
+    }
+.hidden-logos{
+    display: block;
+    margin-left: -110px;
+}
+.img1{
+    width: 10%;
+    }
+    .img2{
+        width: 13%;
+        height:70%
+        }
+        .img3{
+            width: 30%;
+            }   
+            .img4{
+                width: 8%;
+                }
+}
+.sidebar{
+    display: none;
+}
+.sub-section{
+    display: flex;
+    gap:30px;
+    margin-right: -10%;
+    margin-left: 10px;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+a{
+    text-decoration: none;
+}
+@media screen and (min-width: 976px){
+    .top-footer{
+        display: grid;
+        grid-template-columns: 200px 200px 200px 200px 200px ;
+        margin-top: 70px;
+        justify-content: space-between;
+        padding-left: 0px;
+    }
+    .image1{
+        width: 90%;
+
+    }
+}
+@media screen and (min-width: 1200px){
+    .top-footer{
+        display: grid;
+        grid-template-columns: 200px 200px 200px 200px 200px 200px;
+        margin-top: 70px;
+        justify-content: space-between;
+        padding-left: 0px;
+    }
+}
